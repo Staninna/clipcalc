@@ -1,0 +1,15 @@
+[package]
+name = "clipcalc"
+version = "1.0.0"
+edition = "2021"
+repository = "https://github.com/staninna/clipcalc"
+description = "A simple calculator that reads from the clipboard and writes the result back to the clipboard."
+license = "MIT"
+readme = "README.md"
+keywords = ["calculator", "clipboard", "rust"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clipboard-win = "5.0.0"
+evalexpr = "11.3.0"
